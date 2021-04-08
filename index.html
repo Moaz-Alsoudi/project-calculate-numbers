@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>CALCULATE NUMBERS</title>
+
+    <style>
+     body{
+                background-image: url(kelly-sikkema-ncrwrZBWMe0-unsplash.jpg);
+                background-repeat:no-repeat;
+                background-size: 100%;
+                background-position:center;
+        }
+        h1{
+            color: orange;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <script src="app.js">
+    
+
+    </script>
+        <h1>CALCULATE NUMBERS</h1>
+
+        <form style="color: orange;">
+            <h2>Calculate Two Numbers</h2>
+            <label for="Num1">Enter the first Number</label><br>
+            <input type="number"  name="Num1" id="Num1"><br>
+            <br>
+            <label for="calculator"> Choose the math</label><br>
+            <select name="operator" id="operator">  
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            </select><br>
+            <br>
+            <br>
+            <br>
+            <br>
+  
+            <label for="Num2">Enter the Second Number</label><br>
+            <input type="number" name="Num2" id="Num2"><br>
+            <br>
+            <p id="resualt">Resualt:</p>
+            <button type="button" onclick="CalculateNumbers()">Show Resualt</button>
+        </form>
+    
+</body>
+</html>
